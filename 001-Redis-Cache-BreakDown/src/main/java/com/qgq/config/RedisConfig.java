@@ -1,4 +1,4 @@
-package com.test.config;
+package com.qgq.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

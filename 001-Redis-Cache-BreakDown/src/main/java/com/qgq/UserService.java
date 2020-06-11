@@ -1,7 +1,7 @@
-package com.test;
+package com.qgq;
 
-import com.test.common.dao.UsersDao;
-import com.test.common.entity.UserEntity;
+import com.qgq.common.dao.UsersDao;
+import com.qgq.common.entity.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
@@ -10,7 +10,6 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @ClassName : UserService

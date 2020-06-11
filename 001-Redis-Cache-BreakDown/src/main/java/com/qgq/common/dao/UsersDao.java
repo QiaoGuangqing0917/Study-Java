@@ -1,8 +1,6 @@
-package com.test.common.dao;
+package com.qgq.common.dao;
 
-import com.test.common.entity.UserEntity;
-
-import java.util.Map;
+import com.qgq.common.entity.UserEntity;
 
 /**
  * @InterfaceName : UsersDao

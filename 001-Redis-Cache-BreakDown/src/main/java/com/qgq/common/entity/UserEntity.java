@@ -1,4 +1,4 @@
-package com.test.common.entity;
+package com.qgq.common.entity;
 
 import lombok.Getter;
 import lombok.Setter;

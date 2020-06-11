@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
-<mapper namespace="com.test.common.dao.UsersDao">
-	<resultMap id="userEntity" type="com.test.common.entity.UserEntity">
+<mapper namespace="com.qgq.common.dao.UsersDao">
+	<resultMap id="userEntity" type="com.qgq.common.entity.UserEntity">
 		<result column="USER_ID" property="userId" jdbcType="BIGINT" />
 		<result column="USER_NAME" property="userName" jdbcType="VARCHAR" />
 		<result column="USER_PWD" property="userPwd" jdbcType="VARCHAR" />
 	</resultMap>
 
-	<insert id="insert" parameterType="com.test.common.entity.UserEntity">
+	<insert id="insert" parameterType="com.qgq.common.entity.UserEntity">
 		INSERT INTO USERS(USER_ID, USER_NAME, USER_PWD)
 		VALUES(#{userId}, #{userName}, #{userPwd})
 	</insert>
 
-	<update id="update" parameterType="com.test.common.entity.UserEntity">
+	<update id="update" parameterType="com.qgq.common.entity.UserEntity">
 		UPDATE USERS SET
 			USER_NAME = #{userName},
 			USER_PWD = #{userPwd}
