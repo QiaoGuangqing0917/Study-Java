@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="001-Redis-Cache-BreakDown" />
+        <module name="002-Redis-Cache-Puncture" />
       </profile>
     </annotationProcessing>
   </component>

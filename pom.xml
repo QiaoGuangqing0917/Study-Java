@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>001-Redis-Cache-BreakDown</module>
+        <module>002-Redis-Cache-Puncture</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/001-Redis-Cache-BreakDown/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/001-Redis-Cache-BreakDown/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002-Redis-Cache-Puncture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002-Redis-Cache-Puncture/src/main/resources" charset="UTF-8" />
   </component>
 </project>
